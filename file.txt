@@ -1,0 +1,16 @@
+hamza123
+1. The term Computer is derived from
+A. Latin
+B. German
+C. French
+A
+2. Who is the father of Computer
+A. Allen Turing
+B. Charles Babbage
+C. Simur Cray
+B
+3. All keywords in C are in
+A. LowerCase letters
+B. UpperCase letters
+C. CamelCase letters
+A
