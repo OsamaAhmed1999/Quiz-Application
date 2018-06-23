@@ -5,8 +5,6 @@ using namespace std;
 
 int main()
 {
- // admin a("hamza" , "abc123");
-   //a.checkpass("hamz23");
    File f;
    int score=0;
    int i=2,k=2;
