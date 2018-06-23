@@ -4,11 +4,11 @@ using namespace std;
 class File
 {
   public:
-  string file (int LineNo)
+  string file (string fileName,int LineNo)
   {
     string temp;
     int i=1;
-    ifstream obj("file.txt");
+    ifstream obj(fileName);
     while(getline(obj , temp))
     {
       if(i==LineNo)

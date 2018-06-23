@@ -13,7 +13,7 @@ class admin : public people
   void checkpass(string pass)
   {
     File ret;  
-    if(ret.file(1) == pass)
+    if(ret.file("file.txt",1) == pass)
     {
       cout<<"Correct pass"<<endl;
     }
