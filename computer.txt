@@ -1,0 +1,91 @@
+1. Which of the following in Object Oriented Programming is supported by Function overloading and default arguments features of C++. 
+A. Inheritance
+B. Polymorphism
+C. Encapsulation
+D. None of the above
+B
+2. Which of the following is associated with objects?
+A. State
+B. Behaviour
+C. Identity
+D. All of the above 
+D
+3. Which of the following operator(s) cannot be overloaded?
+A. .(Member Access or Dot operator)
+B. ?: (Ternary or Conditional Operator )
+C. :: (Scope Resolution Operator)
+D.  All of the above
+D
+4. XPath is used to navigate through elements and attributes in
+A. XSL document
+B. XML document
+C. XHTML document
+D. XQuery document
+B
+5. What is WPA?
+A. wired protected access
+B. wi-fi protected access
+C. wired process access
+D. wi-fi process access
+B
+6. Pretty Good Privacy (PGP) is used in
+A. Browser security
+B. FTP security
+C. Email security
+D. None of the above
+C
+7. Pretty Good Privacy (PGP) is used in
+A. Browser security
+B. FTP security
+C. Email security
+D. None of the above
+C
+8. Who is the father of Internet ?
+A. Chares Babbage
+B. Vint Cerf
+C. Denis Riche
+D. Martin Cooper
+B
+9. If a computer has more than one processor then it is known as__________?
+A. Uni-process
+B. Multiprocessor
+C. Multi-threaded
+D. Multi-programming
+B
+10. A light sensitive device that converts drawing, printed text or other images into digital form is___________?
+A. Keyboard
+B. Scanner
+C. OMR
+D. None of these
+B
+11. WWW stands for___________?
+A. World Whole Web
+B. Wide World Web
+C. Web World Wide
+D. World Wide Web
+D
+12. A collection of system programs that controls and co-ordinates the overall operations of a computer system is called____________?
+A. System software
+B. Operating system
+C. Utility program
+D. Device driver
+B
+13. What type of operating system MS-DOS is?
+A. Command Line Interface
+B. Graphical User Interface
+C. Multitasking
+D. Menu Driven Interface
+A
+14. Which technology is used in compact disks?
+A. Mechanical
+B. Electrical
+C. Electro Magnetic
+D. Laser
+D
+15. The basic operations performed by a computer are__________?
+A. Arithmetic operation
+B. Logical operation
+C. Storage and relative
+D. All the above
+D
+End

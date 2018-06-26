@@ -22,7 +22,8 @@
     "system_error": "cpp",
     "type_traits": "cpp",
     "typeinfo": "cpp",
-    "cstring": "cpp"
+    "cstring": "cpp",
+    "fstream": "cpp"
   },
   "C_Cpp.intelliSenseEngineFallback": "Enabled",
   "C_Cpp.errorSquiggles": "Enabled"

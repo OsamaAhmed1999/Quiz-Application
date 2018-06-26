@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Computer.h"
+#include "Subject.h"
 using namespace std;
 
-class Physics : public subject
+class Computer : public subject
 {
   public:
-  Physics(){}
+  Computer(){}
 
   private:
   
