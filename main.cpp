@@ -7,6 +7,6 @@ using namespace std;
 int main()
 {
   start START;
-
+  
   system("pause");
 }

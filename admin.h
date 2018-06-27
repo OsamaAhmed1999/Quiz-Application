@@ -26,6 +26,10 @@ class admin : public people
       cin >> choice;
       switch(choice)
       {
+        case 1:
+        delete_question();
+        break;
+
         case 3:
         change_password();
         break;
@@ -38,48 +42,61 @@ class admin : public people
     {
       cout<<"\nSorry! You Enter Wrong Password\n"<<endl;
     }
-  }
-  
-  string namee()
-  {
-    string name;
-    cout << "Enter Name: ";
-    cin >> name;
-    return name;
-  }
-
-  string password()
-  {
-    char pass[8];
-    cout << "Enter Password: ";
-    int i = 0;
-    while(i < 8)
-    {
-      pass[i] = _getch();
-      cout << "*";
-      i++;
-    }
-    return pass;
   };
 
-  void change_password()
-  {
-    system("cls");
-    if(f.file("password.txt" , 1) == password())
-    {
-      cout << "\nEnter New Password of at most 8 Characters: ";
-      cin >> Password;
-      fstream file("password.txt");
-      file << Password;
-      cout << "\nPassword Change\n";
-    }
-    else
-    {
-      cout << "\nSorry! you enter wrong Password";
-    }
-  }
+  string namee();
+  string password();
+  void change_password();
+  void delete_question();
 
   private:
   string Password;
   File f;
+};
+
+string admin::namee()
+{
+  string name;
+  cout << "Enter Name: ";
+  cin >> name;
+  return name;
+};
+
+string admin::password()
+{
+  char pass[8];
+  cout << "Enter Password: ";
+  int i = 0;
+  while(i < 8)
+  {
+    pass[i] = _getch();
+    cout << "*";
+    i++;
+  }
+  return pass;
+};
+
+void admin::change_password()
+{
+  system("cls");
+  if(f.file("password.txt" , 1) == password())
+  {
+    cout << "\nEnter New Password of at most 8 Characters: ";
+    cin >> Password;
+    fstream file("password.txt");
+    file << Password;
+    cout << "\nPassword Change\n";
+  }
+  else
+  {
+    cout << "\nSorry! you enter wrong Password";
+  }
+};
+
+void admin::delete_question()
+{
+  string fileName;
+  cin >> fileName;
+  File f;
+  f.deletee(fileName);
 };

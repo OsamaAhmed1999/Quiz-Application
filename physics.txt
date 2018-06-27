@@ -1,91 +1,75 @@
-1. Which instrument is used to measure altitudes in aircraft's ?
-A: Audiometer
-B: Ammeter
-C: Altimeter
-D: Anemometer
-C
-2. Which instrument is used to measure depth of ocean ?
+Q2. Which instrument is used to measure depth of ocean ?
 A: Galvanometer
 B: Fluxmeter
 C: Endoscope
 D: Fathometer
 D
-3. Name of the instrument to measure atomspheric pressure ?
+Q3. Name of the instrument to measure atomspheric pressure ?
 A: Barometer
 B: Barograph
 C: Bolometer
 D: Callipers
 A
-4. Which instrument is used to measure the power of electric circuit ?
+Q4. Which instrument is used to measure the power of electric circuit ?
 A: Voltmeter
 B: Wattmeter
 C: Wavemeter
 D: Viscometer
 B
-5. Which instrument is used in submarine to see the objects above sea level ?
-A: Pykometer
-B: Polygraph
-C: Photometer
-D: Periscope
-D
-6. Which instrument is used to measure curvature of spherical objects ?
+Q6. Which instrument is used to measure curvature of spherical objects ?
 A: Spectroscope
 B: Spherometer
 C: Spectrometer
 D: Sextant
 B
-7. Which instrument is used to record physical happenings at a distant place ?
+Q7. Which instrument is used to record physical happenings at a distant place ?
 A: Thermostat
 B: Tonometer
 C: Telemeter
 D: Transponder
 C
-8. Which instrument is used to measure the scattering of light by particles suspended in a liquid ?
+Q8. Which instrument is used to measure the scattering of light by particles suspended in a liquid ?
 A: Nephetometer
 B: Ohmmeter
 C: Ondometer
 D: Pyrometer
 A
-9. Which instrument is used to determine the intensity of colours ?
+Q9. Which instrument is used to determine the intensity of colours ?
 A: Cathetometer
 B: Chronometer
 C: Colorimeter
 D: Commutator
 C
-10. Which instrument is used to measure changes in volume of substances ?
+Q10. Which instrument is used to measure changes in volume of substances ?
 A: Dyanamo
 B: Dilatometer
 C: Cyclotron
 D: Electroscope
 B
-11. Which instrument is used to measure sound under water ?
+Q11. Which instrument is used to measure sound under water ?
 A: Hygrometer
 B: Hygroscope
 C: Hypsometer
 D: Hydrophone
 D
-12. Which instrument is used to measure pressure of gases ?
+Q12. Which instrument is used to measure pressure of gases ?
 A: Manometer
 B: Machmeter
 C: Magnetometer
 D: Micrometer
 A
-13. Which instrument is used to measure heat radiation ?
+Q13. Which instrument is used to measure heat radiation ?
 A: Radar
 B: Salinometer
 C: Refractometer
 D: Radio micrometer
 D
-14. Which instrument is used to measure strength of direct current ?
+Q14. Which instrument is used to measure strength of direct current ?
 A: Stroboscope
 B: Streoscope
 C: Tangent Galvanometer
 D: Tachometer
 C
-15. K. Macmillan invented
-A: Bicycle
-B: Barometer
-C: Calculating Machine
-D: Centigrade Scale
-A
 End
+
+

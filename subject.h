@@ -26,51 +26,52 @@ class subject
     result(score);
   };
 
-  int answer(string fileName , int line , int score , int j)
-  {
-    cout << "Enter Answer: ";
-    cin >> ans[j];
-    if(f.file(fileName , line) == ans[j] )
-    {
-      cout<<"Correct"<< endl << endl;
-      score+=20;
-      return score;
-    }
-    else 
-    {
-      cout<<"InCorrect"<< endl << endl;
-      return score;
-    }
-  };
-
-  void result(int score)
-  {
-    ofstream file("result.txt");
-    file << "Name: ";
-    file << "\nScore: " << score << "\nAnswer\n";
-    for(int i = 0; i < 15; i++)
-    {
-      file << i+1 << ". " << this->ans[i] << "\n"; 
-    }
-    file.close();
-    char choice;
-    cout << "Do You want To Check Your Answers Y/N\n>> ";
-    cin >> choice;
-    if(choice == 'y' || choice == 'Y')
-    {
-      int line = 1;
-      while(line <= 18)
-      {
-        cout << f.file("result.txt" , line) << endl;
-        line++;
-      }
-    }    
-  }
-
- 
-
+  int answer(string fileName , int line , int score , int j);
+  void result(int score);
+  
   private:
   string ans[15];
   File f;
   
+};
+
+int subject::answer(string fileName , int line , int score , int j)
+{
+  cout << "Enter Answer: ";
+  cin >> ans[j];
+  if(f.file(fileName , line) == ans[j] )
+  {
+    cout<<"Correct"<< endl << endl;
+    score+=20;
+    return score;
+  }
+  else 
+  {
+    cout<<"InCorrect"<< endl << endl;
+    return score;
+  }
+};
+
+void subject::result(int score)
+{
+  ofstream file("result.txt");
+  file << "Name: ";
+  file << "\nScore: " << score << "\nAnswer\n";
+  for(int i = 0; i < 15; i++)
+  {
+    file << i+1 << ". " << this->ans[i] << "\n"; 
+  }
+  file.close();
+  char choice;
+  cout << "Do You want To Check Your Answers Y/N\n>> ";
+  cin >> choice;
+  if(choice == 'y' || choice == 'Y')
+  {
+    int line = 1;
+    while(line <= 18)
+    {
+      cout << f.file("result.txt" , line) << endl;
+      line++;
+    }
+  }    
 };
